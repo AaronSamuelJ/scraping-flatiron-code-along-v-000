@@ -31,8 +31,8 @@ class Scraper
         puts "Title: #{course.title}"
         puts "  schedule: #{course.schedule}"
         puts "  description: #{course.description}"
-      end 
-    end 
+      end
+    end
   end
 end
 Scraper.new.print_courses
